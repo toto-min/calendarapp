@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.16.19",
+    "nuxt": "^3.6.3"
+  },
+  "dependencies": {
+    "add-to-calendar-button": "^2.2.10",
+    "bootstrap": "5.2.3",
+    "dayjs": "^1.11.9",
+    "lodash": "^4.17.21",
+    "ua-parser-js": "^1.0.35"
+  }
+}
